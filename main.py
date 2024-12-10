@@ -45,6 +45,7 @@ def insertion_sort(arr):
     return arr
 
 # Vypsání výsledků 
+# PS - když budete testovat chvilku to trvá protože bogo sort je čistě náhodnej.. 
 print("Bubble sort:", bubble_sort(array.copy()))
 print("Bogo sort:", bogo_sort(array.copy()))
 print("Selection sort:", selection_sort(array.copy()))
